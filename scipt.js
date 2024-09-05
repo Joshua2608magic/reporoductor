@@ -12,11 +12,11 @@ axios.get('https://leonardoapi.onrender.com/songs')
             div.setAttribute('class', "musica-1")
 
             div.innerHTML = `
-                <img src="assets/Img.jpg" alt="">
+                <img src="${song.path.front}" alt="">
 
                 <div class="music">
-                    <h3>Vivir la vida</h3>
-                    <p>Marck Anthony </p>
+                    <h3>${song.title}</h3>
+                    <p>${song.author} </p>
 
                 </div>
 `
