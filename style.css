@@ -18,7 +18,7 @@ header  {
 display: flex;
 flex-direction: column;
 position: fixed;
-background-color: mediumorchid;
+background-color: BF00FE;
 height: 841px;
 width: 300px;
 }
@@ -26,7 +26,7 @@ width: 300px;
 .titulo{
     font-size: 42px;
     font-weight: 500;
-    color: mediumorchid;
+    color: BF00FE;
     margin: ;
 }
 
