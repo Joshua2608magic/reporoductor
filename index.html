@@ -8,6 +8,7 @@
         content="musica,sonido,audifonos,reproductor,alto sonido,buena calidad,auriculares,musica en linea , musica">
     <title>Musicplay!</title>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <!-- Body tiene el contenido visual -->
 
@@ -16,9 +17,9 @@
     <header>
         <nav>
             <h1 class="titulo">Musicplay!</h1>
-            <form action="">
-                <input type="Buscar">
-                <button type="submit">
+            <form action="" class="boton">
+                <input type="Buscar" class="boton-1">
+                <button type="submit" class="boton" >
                     <img src="assets/Img.svg" alt="">
                 </button>
             </form>
@@ -29,8 +30,9 @@
 
     <main>
         <section id="track-list" class="bucle">
+            
 
-            <div class="musica-1">
+            <!-- <div class="musica-1">
                 <img src="assets/Img.jpg" alt="">
 
                 <div class="music">
@@ -93,25 +95,25 @@
                     <h3>Heart-Shaped Box</h3>
                     <p>In Utero</p>
                 </div>
+            </div> -->
+
+
+        </section>
+        <div class="musica">
+            <img src="assets/Img (6).jpg" alt="" class="musica-imagen" id="current-song-image">
+            <div class="name">
+
+                <p class="titulo" id="current-song-litle">God plans</p>
+                <p class="subtitulo" id="current-song-arstic">Drake</p>
+                <audio src="" controls id="current-song-audio"></audio>
             </div>
 
-
-        </SEction>
-        <div class="musica-1">
-            <img src="assets/Img (6).jpg" alt="">
-            <div>
-
-                <p>God plans</p>
-                <p>Drake</p>
-            </div>
-
-            <div>
-                <img src="assets/Img (10).jpg" alt="">
-                <img src="assets/Img (11).jpg" alt="">
-                <img src="assets/Img (12).jpg" alt="">
-                <img src="assets/Img (13).jpg" alt="">
-                <img src="assets/Img (14).jpg" alt="">
-
+            <div class="botoness">
+                <img src="assets/jhhh.jpg" alt="">
+                <img src="assets/phh.jpg" alt="">
+                <img src="assets/FFFFF.jpg" alt="">
+                <img src="assets/QQQQ.jpg" alt="">
+                <img src="assets/WWWWW.jpg" alt="">
             </div>
 
         </div>
