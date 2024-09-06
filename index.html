@@ -9,6 +9,8 @@
     <title>Musicplay!</title>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 <!-- Body tiene el contenido visual -->
 
@@ -18,7 +20,7 @@
         <nav>
             <h1 class="titulo">Musicplay!</h1>
             <form action="" class="boton">
-                <input type="Buscar" class="boton-1">
+                <input type="Buscar" class="boton-1" name="query" placeholder="buscar por nombre...">
                 <button type="submit" class="boton" >
                     <img src="assets/Img.svg" alt="">
                 </button>
@@ -105,10 +107,10 @@
 
                 <p class="titulo" id="current-song-litle">God plans</p>
                 <p class="subtitulo" id="current-song-arstic">Drake</p>
-                <audio src="" controls id="current-song-audio"></audio>
+                <audio src="" controls id="current-song-audio"autoplay></audio>
             </div>
 
-            <div class="botoness">
+            <div class="flex ">
                 <img src="assets/jhhh.jpg" alt="">
                 <img src="assets/phh.jpg" alt="">
                 <img src="assets/FFFFF.jpg" alt="">

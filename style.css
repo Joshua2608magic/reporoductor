@@ -2,7 +2,7 @@
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
-
+outline: unset;
 margin: unset;
 padding: unset;
 border: unset;
@@ -20,14 +20,23 @@ header nav {
 display: flex;
 align-items: center;
 justify-content: space-between;
+padding: 12px 60px;
 
 }
 
 .boton { 
-background-color:010101;
+background-color: #010101;
 max-width: 100%;
 display: flex;
+padding: 8px;
+border-radius: 10px;
+display: flex;
+align-items: center;
+color: #f2f2f2;
 
+}
+.boton * {
+    background-color: transparent;
 }
 
 .boton-1{
@@ -60,9 +69,10 @@ main {
 }
 
 .musica-imagen {
+    max-width: none;
     height: 374px;
     width: 374px;
-    border-radius: 50%;
+    border-radius: 100%;
 
 }
 
